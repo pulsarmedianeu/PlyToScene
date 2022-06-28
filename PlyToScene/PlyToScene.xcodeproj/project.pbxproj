@@ -20,6 +20,7 @@
 		0E2926102869A21C009DA048 /* PlyScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0E29260F2869A21C009DA048 /* PlyScene.scn */; };
 		0E2926142869A285009DA048 /* PlyToSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2926132869A285009DA048 /* PlyToSceneViewModel.swift */; };
 		0E2926172869A360009DA048 /* t.ply in Resources */ = {isa = PBXBuildFile; fileRef = 0E2926162869A360009DA048 /* t.ply */; };
+		0E3ECF932869F8260052C419 /* korhaz1.ply in Resources */ = {isa = PBXBuildFile; fileRef = 0E3ECF922869F8260052C419 /* korhaz1.ply */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0E29260F2869A21C009DA048 /* PlyScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PlyScene.scn; sourceTree = "<group>"; };
 		0E2926132869A285009DA048 /* PlyToSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlyToSceneViewModel.swift; sourceTree = "<group>"; };
 		0E2926162869A360009DA048 /* t.ply */ = {isa = PBXFileReference; lastKnownFileType = file; path = t.ply; sourceTree = "<group>"; };
+		0E3ECF922869F8260052C419 /* korhaz1.ply */ = {isa = PBXFileReference; lastKnownFileType = file; path = korhaz1.ply; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		0E2926152869A2CA009DA048 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0E3ECF922869F8260052C419 /* korhaz1.ply */,
 				0E2926162869A360009DA048 /* t.ply */,
 			);
 			path = Resources;
@@ -212,6 +215,7 @@
 				0E2925F928699E77009DA048 /* Preview Assets.xcassets in Resources */,
 				0E2925F628699E77009DA048 /* Assets.xcassets in Resources */,
 				0E2926102869A21C009DA048 /* PlyScene.scn in Resources */,
+				0E3ECF932869F8260052C419 /* korhaz1.ply in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

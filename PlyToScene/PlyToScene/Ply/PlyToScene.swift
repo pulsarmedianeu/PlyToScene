@@ -40,9 +40,9 @@ import SceneKit
             return PointCloudVertex(
                 
                 
-                x: Float(model.point.y/50),
-                y: Float(model.point.x/50),
-                z: Float(model.point.z/50),
+                x: Float(model.point.y/150),
+                y: Float(model.point.z/150),
+                z: Float(model.point.x/150),
                 r: Float(model.color.cgColor!.components?[0] ?? 1),
                 g: Float(model.color.cgColor!.components?[1] ?? 1),
                 b: Float(model.color.cgColor!.components?[2] ?? 1))

@@ -41,7 +41,7 @@ class PlyConverter {
     
     func PlyToMemoryBytes() {
         
-        bytes = plyReader.getPlyFileFromResource(forResource: "t", withExtension: "ply") ?? []
+        bytes = plyReader.getPlyFileFromResource(forResource: "korhaz1", withExtension: "ply") ?? []
         
         if bytes.count > 0  {
             var _ = plyReader.setProperties(bytes)
